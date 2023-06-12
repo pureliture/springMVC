@@ -2,7 +2,9 @@ package hello.servlet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
+@ServletComponentScan // Servlet Component 자동등록
 @SpringBootApplication
 public class ServletApplication {
 
